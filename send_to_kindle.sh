@@ -3,7 +3,7 @@
 # Create paths
 RECIPE_PATH="recipes/$1"
 RECIPE_BASENAME=$(basename $1 .recipe)
-DIGEST_PATH="articles/$(date +"%Y-%m-%d")_${RECIPE_BASENAME}.mobi"
+DIGEST_PATH="articles/$(date +"%Y-%m-%d")_${RECIPE_BASENAME}.epub"
 
 
 # Convert rss feeds to .mobi
